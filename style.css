@@ -32,6 +32,15 @@ nav.main-nav .col-sm-6 {
     height: 81px;
 }
 
+@media only screen and (max-width: 600px) {
+    nav.main-nav .col-sm-6 {
+        flex-direction: column;
+        height: auto;
+        padding: 5px;
+        justify-content: center;
+    }
+}
+
 nav figure,
 ul {
     width: 50%;
@@ -194,6 +203,9 @@ nav ul li a {
     width: 263px;
     border: 0px;
     background: #e1e6ea;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
 
 }
 
@@ -247,6 +259,8 @@ a:hover {
     background: #4e5a62;
 }
 
+
+/*section work style!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 .work {
     margin-top: 100px;
     background: #3a454d;
@@ -266,6 +280,11 @@ a:hover {
     background: #4e5a62;
     border: 10px solid #4e5a62;
     margin-right: 14px;
+}
+
+.work figure img {
+    width: 100%;
+    transition:0.3s;
 }
 
 #more {
@@ -300,7 +319,42 @@ a:hover {
     margin: 0px;
     color: rgba(220, 223, 225, 255);
 }
+.work figure{
+    position:relative;
+    overflow: hidden;
+}
 
+.work figure i{
+    color:#fff;
+    position:absolute;
+    z-index:11;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    display:none;
+}
+.work figure img:hover{
+    transform:scale(1.2);
+    transition:0.5s;
+    
+    
+}
+.work figure .item{
+    position:absolute;
+    bottom:0;
+    color: #fff;
+    background:#292f36; 
+    height: 60px;
+    padding: 20px;
+    width: 360px;
+    display:none;
+    opacity:0.7;
+}
+
+.work2{
+    margin-bottom:124px;
+}
+/*team style##########################################*/
 .team .fas,
 .far {
     color: #23b7a4;
@@ -322,75 +376,70 @@ p {
 }
 
 /*footer*/
-.container-fluid{
+
+.container-fluid {
     background-image: url(img/map.png);
     height: 346px;
-    
+
 }
 
-.footer{
-   
-}
+.footer {}
 
-footer h3{
-    margin-top:60px;
+footer h3 {
+    margin-top: 60px;
     margin-bottom: 60px;
 }
 
-footer.team p{
-    margin:0px;
+footer.team p {
+    margin: 0px;
     margin-bottom: 50px;
 }
 
-footer form input{
+footer form input {
     width: 240px;
     height: 44px;
-    background:#eaeef1;
-    border:0px;
+    background: #eaeef1;
+    border: 0px;
 }
 
-footer label{
+footer label {
     font-size: 14px;
 }
 
-footer form{
+footer form {
     background: #fff;
-    margin-top:-250px;
+    margin-top: -250px;
 }
 
-footer form textarea{
-    width:100%;
-    height:159px;
-    background:#eaeef1;
-    border:0px;
+footer form textarea {
+    width: 100%;
+    height: 159px;
+    background: #eaeef1;
+    border: 0px;
 }
 
-footer form input{
+footer form input {
     width: 100%;
 }
 
-footer form .btn{
+footer form .btn {
     background: #23b7a4;
 }
 
 /*author section*/
 
-.author{
-    background:#3a454d;
-    color:#fff;
+.author {
+    background: #3a454d;
+    color: #fff;
 }
 
-.author .col{
-    display:flex;
+.author .col {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.author a{
-    color:#fff;
-    margin:10px;
+.author a {
+    color: #fff;
+    margin: 10px;
 }
-
-
-
-
