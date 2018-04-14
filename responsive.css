@@ -79,4 +79,35 @@
         width: 147px;
         height: 40px;
     }
+    .author .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .author #author-fa {
+        text-align: center;
+        margin-top: 28px;
+    }
+    .author .col-sm-12 p{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .author .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .author #author-fa {
+        text-align: center;
+        margin-top: 28px;
+    }
+    .author .col-sm-12 p{
+        text-align: center;
+    }
 }
