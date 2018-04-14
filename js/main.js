@@ -25,4 +25,8 @@ $(document).ready(function () {
 $(this).find('.fas').css('display','none');
        $(this).find('img').css('opacity','1') 
     })
+    
+    $('.nav-mobile').click(function(){
+        $('.mobile-ul').toggle();
+    })
 })

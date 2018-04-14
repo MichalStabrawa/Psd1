@@ -8,7 +8,10 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:700" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
 </head>
 
 <body>
@@ -16,20 +19,21 @@
     <nav class="main-nav">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-4">
                     <figure><img src="img/modest@1X.png" alt=""></figure>
+                    <span class="nav-mobile"><i class="fas fa-2x fa-bars"></i></span>
                 </div>
-                <div class="col-sm-6">
-                    <ul>
-                        <li>
-                            <a href="">HOME</a>
-                            <a href="">ABOUT</a>
-                            <a href="">WORK</a>
-                            <a href="">TEAM</a>
-                            <a href="">SERVICES</a>
-                            <a href="">FEATURES</a>
-                            <a href="">CONTACT</a>
+                <div class="col-sm-8">
+                    <ul class="mobile-ul">
+                        <li class="active">
+                            <a href="" >HOME</a>
                         </li>
+                        <li> <a href="">ABOUT</a></li>
+                        <li> <a href="">WORK</a></li>
+                        <li> <a href="">TEAM</a></li>
+                        <li> <a href="">SERVICES</a></li>
+                        <li><a href="">FEATURES</a></li>
+                        <li> <a href="">CONTACT</a></li>
                     </ul>
                 </div>
             </div>
@@ -239,36 +243,54 @@
             <div class="row">
                 <div class="col-md-4 work-col">
                     <figure><img src="img/deskorolka.png" alt="">
-                    <i class="fas fa-2x fa-plus"></i><div class="item">PARTNERSHIP GUIDLINES</div></figure>
+                        <i class="fas fa-2x fa-plus"></i>
+                        <div class="item">PARTNERSHIP GUIDLINES</div>
+                    </figure>
                 </div>
                 <div class="col-md-4 work-col">
-                    <figure><img src="img/droga.png" alt=""> <i class="fas fa-2x fa-plus"></i><div class="item">PARTNERSHIP GUIDLINES</div></figure>
+                    <figure><img src="img/droga.png" alt=""> <i class="fas fa-2x fa-plus"></i>
+                        <div class="item">PARTNERSHIP GUIDLINES</div>
+                    </figure>
                 </div>
                 <div class="col-md-4 work-col">
-                    <figure><img src="img/deskorolka.png" alt=""> <i class="fas fa-2x fa-plus"></i><div class="item">PARTNERSHIP GUIDLINES</div></figure>
+                    <figure><img src="img/deskorolka.png" alt=""> <i class="fas fa-2x fa-plus"></i>
+                        <div class="item">PARTNERSHIP GUIDLINES</div>
+                    </figure>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4 work-col">
-                    <figure><img src="img/statki.png" alt=""><i class="fas fa-2x fa-plus"></i><div class="item">PARTNERSHIP GUIDLINES</div></figure>
+                    <figure><img src="img/statki.png" alt=""><i class="fas fa-2x fa-plus"></i>
+                        <div class="item">PARTNERSHIP GUIDLINES</div>
+                    </figure>
                 </div>
                 <div class="col-md-4 work-col">
-                    <figure><img src="img/ptak.png" alt=""> <i class="fas fa-2x fa-plus"></i><div class="item">PARTNERSHIP GUIDLINES</div></figure>
+                    <figure><img src="img/ptak.png" alt=""> <i class="fas fa-2x fa-plus"></i>
+                        <div class="item">PARTNERSHIP GUIDLINES</div>
+                    </figure>
                 </div>
                 <div class="col-md-4 work-col">
-                    <figure><img src="img/gory.png" alt=""> <i class="fas fa-2x fa-plus"></i><div class="item">PARTNERSHIP GUIDLINES</div></figure>
+                    <figure><img src="img/gory.png" alt=""> <i class="fas fa-2x fa-plus"></i>
+                        <div class="item">PARTNERSHIP GUIDLINES</div>
+                    </figure>
                 </div>
             </div>
 
             <div class="row" id="more">
                 <div class="col-md-4 work-col">
-                    <figure><img src="img/statki.png" alt=""> <i class="fas fa-2x fa-plus"></i><div class="item">PARTNERSHIP GUIDLINES</div></figure>
+                    <figure><img src="img/statki.png" alt=""> <i class="fas fa-2x fa-plus"></i>
+                        <div class="item">PARTNERSHIP GUIDLINES</div>
+                    </figure>
                 </div>
                 <div class="col-md-4 work-col">
-                    <figure><img src="img/ptak.png" alt=""> <i class="fas fa-2x fa-plus"></i><div class="item">PARTNERSHIP GUIDLINES</div></figure>
+                    <figure><img src="img/ptak.png" alt=""> <i class="fas fa-2x fa-plus"></i>
+                        <div class="item">PARTNERSHIP GUIDLINES</div>
+                    </figure>
                 </div>
                 <div class="col-md-4 work-col">
-                    <figure><img src="img/gory.png" alt=""> <i class="fas fa-2x fa-plus"></i><div class="item">PARTNERSHIP GUIDLINES</div></figure>
+                    <figure><img src="img/gory.png" alt=""> <i class="fas fa-2x fa-plus"></i>
+                        <div class="item">PARTNERSHIP GUIDLINES</div>
+                    </figure>
                 </div>
             </div>
 
@@ -383,33 +405,35 @@
                 </div>
                 <div class="col-md-6">
                     <form action="">
-                       
-                            <div class="col"><label for="">YOUR NAME</label><br><input type="text"></div>
-                            <div class="col"><label for="">YOUR EMAIL</label><br><input type="email"></div>
-                       
-                       
-                            <div class="col">
-                                <label for="">MESSAGE</label><br>
-                                <textarea name="" id=""></textarea>
-                                
-                                <button class="btn">SEND MESSAGE</button>
-                            </div>
-                       
+
+                        <div class="col"><label for="">YOUR NAME</label><br><input type="text"></div>
+                        <div class="col"><label for="">YOUR EMAIL</label><br><input type="email"></div>
+
+
+                        <div class="col">
+                            <label for="">MESSAGE</label><br>
+                            <textarea name="" id=""></textarea>
+
+                            <button class="btn">SEND MESSAGE</button>
+                        </div>
+
                     </form>
                 </div>
             </div>
         </div>
     </footer>
-    
+
     <section class="author">
         <div class="container">
             <div class="row">
-                <div class="col"><p>© Copyright 2014 by PSD Booster. All Rights Reserved.</p></div>
+                <div class="col">
+                    <p>© Copyright 2014 by PSD Booster. All Rights Reserved.</p>
+                </div>
                 <div class="col"><a href=""><i class="fab fa-twitter"></i></a>
-                <a href=""><i class="fab fa-facebook-f"></i></a>
-                <a href=""><i class="fab fa-skype"></i></a>
-                <a href=""><i class="fab fa-behance"></i></a>
-                <a href=""><i class="fab fa-linkedin-in"></i></a></div>
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-skype"></i></a>
+                    <a href=""><i class="fab fa-behance"></i></a>
+                    <a href=""><i class="fab fa-linkedin-in"></i></a></div>
             </div>
         </div>
     </section>
