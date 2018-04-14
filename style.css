@@ -209,10 +209,11 @@ nav ul li a:hover{
 }
 
 .content p {
+    margin-left:0px;
     font-size: 16px;
 }
 
-.green-content {
+.green-content {display:block;
     width: 50px;
     height: 50px;
     background: #23b7a4;
@@ -481,10 +482,18 @@ footer form textarea {
 
 footer form input {
     width: 100%;
+  
 }
 
 footer form .btn {
     background: #23b7a4;
+    margin-top:21px;
+    width: 147px;
+    font-size:14px;
+    margin-bottom: 50px;
+}
+footer form label{
+    margin-top:5px;
 }
 
 /*author section*/
