@@ -1,76 +1,82 @@
 @media only screen and (max-width: 576px) {
-   
-    
+
+
     nav.main-nav .col-sm-8,
     .col-sm-4 {
         height: auto;
     }
-    
-    nav.main-nav .nav-mobile{
-    color:#fff;
-    display:inline-block;
-}
-    
-    nav.main-nav ul.mobile-ul{
-    
-       
-    }
-    
-     nav.main-nav  {
-       height: auto;
+
+    nav.main-nav .nav-mobile {
+        color: #fff;
+        display: inline-block;
     }
 
-    
-    nav.main-nav ul.mobile-ul{
-        display:flex;
+    nav.main-nav ul.mobile-ul {}
+
+    nav.main-nav {
+        height: auto;
+    }
+
+
+    nav.main-nav ul.mobile-ul {
+        display: flex;
         justify-content: flex-start;
         flex-direction: column;
         height: auto;
-        padding:0px;
-        display:none;
-        
-        
-        
-    }
-    
-.jumbotron {
-    text-align: center;
-    width: 100%;
-    padding: 0px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: transparent;
-    position: absolute;
-    z-index: 10;
-    color: #fff;
-    padding: 5px;
-}
-    
-    .jumbotron h1 {
-    font-size: 1rem;
-    padding-right: 0px;
         padding: 0px;
-}
+        display: none;
 
-.jumbotron p {
-    max-width: 648px;
-    font-size: 0.9rem;
-    margin:0px;
-}
 
-.jumbotron .btn {
-    width: 120px;
-    height: 40px;
-    background: transparent;
-    font-size: 14px;
-    border: 1.5px solid #fff;
-}
-    
-    .btn{
+
+    }
+
+    .jumbotron {
+        text-align: center;
+        width: 100%;
+        padding: 0px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: transparent;
+        position: absolute;
+        z-index: 10;
+        color: #fff;
+        padding: 5px;
+    }
+
+    .jumbotron h1 {
+        font-size: 1rem;
+        padding-right: 0px;
+        padding: 0px;
+    }
+
+    .jumbotron p {
+        max-width: 648px;
+        font-size: 0.9rem;
+        margin: 0px;
+    }
+
+    .jumbotron .btn {
+        width: 120px;
+        height: 40px;
+        background: transparent;
+        font-size: 14px;
+        border: 1.5px solid #fff;
+    }
+
+    .btn {
         width: 100px;
         height: 30px;
-        padding:2px;
+        padding: 2px;
         line-height: 30px;
+    }
+
+    footer form {
+        margin-top: 0px;
+    }
+
+    footer form .btn {
+        width: 147px;
+        height: 40px;
     }
 }

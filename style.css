@@ -482,10 +482,18 @@ footer form textarea {
 
 footer form input {
     width: 100%;
+  
 }
 
 footer form .btn {
     background: #23b7a4;
+    margin-top:21px;
+    width: 147px;
+    font-size:14px;
+    margin-bottom: 50px;
+}
+footer form label{
+    margin-top:5px;
 }
 
 /*author section*/
